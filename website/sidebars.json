@@ -1,0 +1,13 @@
+{
+  "docs": {
+    "Docusaurus": ["doc1"],
+    "WHMCS": ["custom_hooks"],
+    "Administración": ["doc3"],
+    "Accesos Rápidos": ["intranet", "webmail"],
+    "Laravel": ["laravel"],
+    "Opencart": ["intranet"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
