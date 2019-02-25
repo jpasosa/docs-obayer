@@ -31,3 +31,17 @@ Estamos pasando por medio de los archivos de los lenguajes, los estados de las f
 
 
 ---
+
+### 3. Alta de un cliente
+> file: includes/hooks/clients.php
+
+> hook: [ClientAdd](https://developers.whmcs.com/hooks-reference/client/#clientadd)
+
+> <a href="http://stash.allytech.com:7990/projects/WHMCS/repos/whmcs-741/browse/includes/hooks/clients.php" target="_blank">Ver código en el repositorio</a>
+
+> Web Service, está apuntando a URL http://ws.allytech.com/public/data-get/new-client/send para luego desde nuestro web service poder enviar al web service del calipso.
+
+Va a enviar todos los datos del nuevo cliente, en principio a nuestro web service (ws.allytech.com), para luego conectarlo contra el web service del calipso.
+
+
+---

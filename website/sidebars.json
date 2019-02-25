@@ -1,7 +1,7 @@
 {
   "docs": {
     "Docusaurus": ["doc1"],
-    "WHMCS": ["custom_hooks"],
+    "WHMCS": ["custom_hooks", "hooks_client_edit"],
     "Administración": ["doc3"],
     "Accesos Rápidos": ["intranet", "webmail"],
     "Laravel": ["laravel"],
