@@ -29,4 +29,5 @@ Es un script en JS para que el cliente no pueda modificar el tipo de facturació
 
 Estamos pasando por medio de los archivos de los lenguajes, los estados de las facturas. Por ejemplo "pagar", "pagada", "cancelada", etc.
 
+
 ---
