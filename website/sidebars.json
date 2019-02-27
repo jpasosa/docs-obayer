@@ -1,7 +1,20 @@
 {
   "docs": {
     "Docusaurus": ["doc1"],
-    "WHMCS": ["custom_hooks", "hooks_client_edit"],
+    "WHMCS - HOOKS": [
+                "custom_hooks",
+                "hooks_client_edit_validate_facturacion",
+                "hooks_client_areainvoices",
+                "hooks_client_add",
+                "hooks_client_edit",
+                "hooks_client_validate",
+                "hooks_invoice_create"
+            ],
+    "WHMCS - IMPORT CLIENTS": [
+                "doc2",
+                "doc6",
+                "doc7"
+            ],
     "Administración": ["doc3"],
     "Accesos Rápidos": ["intranet", "webmail"],
     "Laravel": ["laravel"],
