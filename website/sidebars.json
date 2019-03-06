@@ -18,7 +18,8 @@
     "Administración": ["doc3"],
     "Accesos Rápidos": ["intranet", "webmail"],
     "Laravel": ["laravel"],
-    "Opencart": ["intranet"]
+    "Opencart": ["intranet"],
+    "Implementaciones": ["button_whatsapp"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
