@@ -1,24 +1,33 @@
 {
   "docs": {
     "Docusaurus": ["doc1"],
-    "WHMCS - HOOKS": [
-                "custom_hooks",
-                "hooks_client_edit_validate_facturacion",
-                "hooks_client_areainvoices",
-                "hooks_client_add",
-                "hooks_client_edit",
-                "hooks_client_validate",
-                "hooks_invoice_create"
+    "Wh - HOOKS": [
+                "whmcs/hooks/custom_hooks",
+                "whmcs/hooks/hooks_client_edit_validate_facturacion",
+                "whmcs/hooks/hooks_client_areainvoices",
+                "whmcs/hooks/client_add",
+                "whmcs/hooks/hooks_client_edit",
+                "whmcs/hooks/hooks_client_validate",
+                "whmcs/hooks/hooks_invoice_create"
             ],
-    "WHMCS - IMPORT CLIENTS": [
+    "Wh - IMPORT CLIENTS": [
                 "doc2",
                 "doc6",
                 "doc7"
             ],
+    "Wh - CALIPSO": [
+                "whmcs/calipso/request_admin_add_pay",
+                "whmcs/calipso/request_admin_cancel_invoice",
+                "whmcs/calipso/request_front_buy_service",
+                "whmcs/calipso/response_front_buy_service",
+                "whmcs/calipso/response_admin_add_pay",
+                "whmcs/calipso/response_afip"
+            ],
     "Administración": ["doc3"],
     "Accesos Rápidos": ["intranet", "webmail"],
     "Laravel": ["laravel"],
-    "Opencart": ["intranet"],
+    "Laravel-Socialite": ["laravel-social"],
+    "Opencart": ["vqmod"],
     "Implementaciones": ["button_whatsapp"]
   },
   "docs-other": {
