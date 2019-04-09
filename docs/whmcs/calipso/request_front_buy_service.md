@@ -78,3 +78,57 @@ Pedido que envíamos al web service del Calipso al comprar un servicio desde el 
 )
 
 ```
+
+
+Vamos a describir lo que va a ser la nueva request al Calipso segun nuevas lógicas
+
+
+
+```
+(
+    [tipo] => facturacc
+    [cliente] => Array
+        (
+            [id] => WH018657
+            [nombre] => Juan Pablo Sosa
+            [mail] => juanpablososa@gmail.com
+            [domicilio] => Lopez y Planes 6081
+            [localidad] => asd
+            [codpostal] => 2323
+            [tipoiva] => C
+            [provincia] => B
+            [DocTipo] => 80
+            [idimpositivo] => 20-27861007-2
+        )
+
+    [ordenid] => 1428
+    [observacion] => observaciones de la factura
+    [fecha_vencimiento] => 14/01/2019
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [productoid] => 01HOSBONAVA
+                    [detalle] => Express - test20mar1726.com (20/03/2019 - 19/04/2019)
+                    [cantidad] => 1
+                    [precio] => 292.32
+                    [importe] => 292.32
+                )
+
+        )
+
+    [cobros] => Array
+        (
+            [0] => Array
+                (
+                    [tipoid] =>
+                    [importe] => 0
+                    [num_ref] => 0
+                    [valor] => 0
+                )
+
+        )
+
+)
+
+```

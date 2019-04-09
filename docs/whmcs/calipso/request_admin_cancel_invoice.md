@@ -70,3 +70,53 @@ Pedido que le pasamos al web service del Calipso
 
 )
 ```
+
+
+
+Nueva lógica para cancelación de la factura.
+
+```
+(
+    [tipo] => creditocc
+    [cliente] => Array
+        (
+            [id] => W20065
+            [nombre] => Juan Pablo Sosa
+            [mail] => juans+clienteivaexento@allytech.com
+            [domicilio] => kjhj
+            [localidad] => kjh
+            [codpostal] => 7474
+            [tipoiva] => X
+            [provincia] => S
+            [DocTipo] => 80
+            [idimpositivo] => 30-58571293-7
+        )
+
+    [ordenid] => 1204
+    [total] => 364.68
+    [descuentogeneral] => 0
+    [observacion] => observaciones de la factura
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [productoid] => 01HOSBONAVA
+                    [detalle] => Express - test01nov20181934.com (01/11/2018 - 30/11/2018)
+                    [cantidad] => 1
+                    [precio] => 284.20
+                    [importe] => 284.20
+                )
+
+            [1] => Array
+                (
+                    [productoid] => HOSPAGDIF
+                    [detalle] => Cargo por demora (Agregar 04/11/2018)
+                    [cantidad] => 1
+                    [precio] => 17.19
+                    [importe] => 17.19
+                )
+
+        )
+
+)
+```

@@ -19,6 +19,7 @@
                 "whmcs/calipso/request_admin_add_pay",
                 "whmcs/calipso/request_admin_cancel_invoice",
                 "whmcs/calipso/request_front_buy_service",
+                "whmcs/calipso/request_pedido_wan",
                 "whmcs/calipso/response_front_buy_service",
                 "whmcs/calipso/response_admin_add_pay",
                 "whmcs/calipso/response_afip"
